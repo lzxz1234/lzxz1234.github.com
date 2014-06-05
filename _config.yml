@@ -11,6 +11,7 @@ pygments: true
 title : IPlus
 tagline: Site Tagline
 paginate: 15
+markdown: kramdown
 author :
   name : lzxz1234
   email : lzxz1234@gmail.com
