@@ -1,6 +1,7 @@
-﻿---
+---
 layout: page
 title: Iplus's HomePage!
+tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
@@ -22,12 +23,12 @@ title: Iplus's HomePage!
 
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a href="/"><前页</a>
+    <a href="/"><&#x524D;&#x9875;</a>
     {% else %}
-    <a href="/page{{paginator.previous_page}}"><前页</a>
+    <a href="/page{{paginator.previous_page}}"><&#x524D;&#x9875;</a>
     {% endif %}
   {% else %}
-    <span class="previous disabled"><前页</span>
+    <span class="previous disabled"><&#x524D;&#x9875;</span>
   {% endif %}
 
       {% if paginator.page == 1 %}
@@ -45,9 +46,9 @@ title: Iplus's HomePage!
     {% endfor %}
 
   {% if paginator.next_page %}
-    <a class="next" href="/page{{paginator.next_page}}">后页></a>
+    <a class="next" href="/page{{paginator.next_page}}">&#x540E;&#x9875;></a>
   {% else %}
-    <span class="next disabled" >后页></span>
+    <span class="next disabled" >&#x540E;&#x9875;></span>
   {% endif %}
-  (共{{ paginator.total_posts }}篇)
+  (&#x5171;{{ paginator.total_posts }}&#x7BC7;)
 </div>
