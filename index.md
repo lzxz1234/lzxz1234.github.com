@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: Iplus's HomePage!
 ---
@@ -22,12 +22,12 @@ title: Iplus's HomePage!
 
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a href="/"><ǰҳ</a>
+    <a href="/"><前页</a>
     {% else %}
-    <a href="/page{{paginator.previous_page}}"><ǰҳ</a>
+    <a href="/page{{paginator.previous_page}}"><前页</a>
     {% endif %}
   {% else %}
-    <span class="previous disabled"><ǰҳ</span>
+    <span class="previous disabled"><前页</span>
   {% endif %}
 
       {% if paginator.page == 1 %}
@@ -45,9 +45,9 @@ title: Iplus's HomePage!
     {% endfor %}
 
   {% if paginator.next_page %}
-    <a class="next" href="/page{{paginator.next_page}}">��ҳ></a>
+    <a class="next" href="/page{{paginator.next_page}}">后页></a>
   {% else %}
-    <span class="next disabled" >��ҳ></span>
+    <span class="next disabled" >后页></span>
   {% endif %}
-  (��{{ paginator.total_posts }}ƪ)
+  (共{{ paginator.total_posts }}篇)
 </div>
