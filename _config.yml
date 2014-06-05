@@ -10,6 +10,7 @@ pygments: true
 #
 title : IPlus
 tagline: Site Tagline
+paginate: 15
 author :
   name : lzxz1234
   email : lzxz1234@gmail.com
