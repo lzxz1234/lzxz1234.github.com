@@ -29,6 +29,7 @@ Fork on [Github](https://github.com/lzxz1234/XCMS).
 
 ## 基本流程 ##
 ![流程图]({{ site.JB.POST_IMG_PATH }}/20140606124220.png)
+
 ## 系统定制 ##
 
 ### AbstractDao ###
