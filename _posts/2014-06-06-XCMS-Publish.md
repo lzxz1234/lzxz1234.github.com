@@ -1,5 +1,6 @@
 ---
 layout: post
+title: XCMS发布记
 category : xcms
 tags : [xcms]
 ---
