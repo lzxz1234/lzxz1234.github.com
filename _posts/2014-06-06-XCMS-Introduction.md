@@ -1,6 +1,6 @@
 ---
 layout: post
-title: XCMS发布记
+title: XCMS简介
 category : xcms
 tags : [xcms]
 ---
@@ -10,6 +10,9 @@ tags : [xcms]
 这个版本是在四维版本的基础上改的，删除了配置文件直接采用模板当配置文件，更强大也更直观，取消系统级的多表联查，仅包含基本的单表增删改查。
 
 这也要求系统在设计时对于数据库的继承关系尽量使每个具体类一张表，即将对象User， Teacher， Student 设计成表 Teacher 和 Student，User中的全部字段均被包含在具体表中。
+
+## 项目地址 ##
+Fork on [Github](https://github.com/lzxz1234/XCMS).
 
 ## 可用页面列表 ##
 - http://domain.com/ 列表页面
@@ -35,6 +38,16 @@ tags : [xcms]
 系统初次获取请求时会在 TplRepository 中创建对应操作的基本模板，如对 book 的查询操作会触发在 Repository 中创建文件 com.siwei.domain.Book-QryResult.html，进行界面微调时直接修改此处模板即可，删除操作会在下次请求到达时重新生成。
 
 在包 `com.chineseall.xcms.nb.tpl` 中包含 create.html, index.html, info.html, modify.html 和 query-result.html，此模板作用为当TplRepository中找不到对应模板时该模板生成，修改整个系统的界面时修改此处模板。
+
+### 快捷更新 ###
+**自定义SQL** 支持虚拟类型以实现自定义SQL快速更新少量字段，基本配置如下：
+
+	class2Dao.properties:
+	quick-set-workflow=com.chineseall.xcms.nb.dao.QuickSetDao
+	custsql.properties:
+	quick-set-workflow=update s_resource set status = ${status} where id = ${id}
+	
+配置完成浏览器直接访问：http://domain.com/mod/quick-set-workflow/26?id=26&status=1 即可。
 
 ### 模板语法 ###
 模板基本语法参考 [Beetl](https://github.com/javamonkey/beetl2.0 "Beetl")。
