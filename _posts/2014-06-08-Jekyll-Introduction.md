@@ -327,3 +327,5 @@ YAML 头的可用配置参数在此处查看：
 Jekyll-bootstrap 的目标就是通过提供一些方法和策略让你能更直观和轻松的使用 Jekyll 工作。
 
 **感谢** 你能读完全文.
+
+转载注明出处：[{{page.title}}]({{permalink}})
