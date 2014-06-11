@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 编写干净的单元测试 - 用领域驱动语言取代Assert
-category : Enterprise
+category : junit
 tags : [DSL, JUnit, Testing]
 ---
 {% include JB/setup %}
