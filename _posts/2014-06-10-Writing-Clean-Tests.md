@@ -222,7 +222,7 @@ public class UserAssert extends AbstractAssert<UserAssert, User> {
 
 我们已经为User对象创建了一个面向领域的断言模型。然后下一步就是用这个新语言模型修改我们的测试用例。
 
-## Replacing JUnit Assertions with a Domain-Specific Language ##
+## 用面向领域语言重写测试断言 ##
 
 用面向领域语言的断言方式重写测试代码后看起来是这样的：
 
