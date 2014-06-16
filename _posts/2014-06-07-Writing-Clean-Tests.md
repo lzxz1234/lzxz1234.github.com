@@ -265,4 +265,4 @@ public class RepositoryUserServiceTest {
 
 转载注明出处：[{{page.title}}]({{permalink}})
 
-[原文链接](http://www.petrikainulainen.net/programming/testing/writing-clean-tests-replace-assertions-with-a-domain-specific-language/ "Writing Clean Tests – Replace Assertions with a Domain-Specific Language")
+[原文链接](http://www.petrikainulainen.net/programming/testing/writing-clean-tests-naming-matters/ "Writing Clean Tests – Naming Matters")
