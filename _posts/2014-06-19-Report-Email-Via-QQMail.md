@@ -13,7 +13,7 @@ tags : [Python, Cubieboard, Email]
 
 源代码如下：
 
-{% highlight python %}
+{% highlight python linenos %}
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import os

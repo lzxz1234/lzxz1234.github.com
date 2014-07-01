@@ -10,7 +10,7 @@ tags : [Shell, Autodeploy]
 对指定目录执行 `svn update`，如果存在新内容，则关闭 tomcat，执行编译操作，然后启动 tomcat，否则直接退出。
 
 ### 基本代码 ###
-{% highlight bash %}
+{% highlight bash linenos %}
 #!/bin/bash
 
 shelldir=$(cd $(dirname $BASH_SOURCE); pwd)

@@ -20,7 +20,7 @@ tags : [DSL, JUnit, Testing, CleanCode]
 
 测试代码大体是这样的:
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -141,7 +141,7 @@ email、firstName、lastName、signInProvider字段有非空的但password字段
 
 自定义的断言类看起来是这样的：
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.assertj.core.api.AbstractAssert;
 import org.assertj.core.api.Assertions;
 
@@ -226,7 +226,7 @@ public class UserAssert extends AbstractAssert<UserAssert, User> {
 
 用面向领域语言的断言方式重写测试代码后看起来是这样的：
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

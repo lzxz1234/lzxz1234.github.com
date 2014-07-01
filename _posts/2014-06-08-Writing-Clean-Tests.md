@@ -51,7 +51,7 @@ tags : [DSL, JUnit, Testing, CleanCode]
 
 这份测试用例代码如下：
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -124,7 +124,7 @@ public class RepositoryUserServiceTest {
 
 当我们把魔数全用声明在类里的常量替换后，代码看起来是这样的：
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -220,7 +220,7 @@ public class RepositoryUserServiceTest {
 
 第一个测试用例的源代码如下：
 
-{% highlight java %}
+{% highlight java linenos %}
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;
 import org.junit.Test;
@@ -273,7 +273,7 @@ public class TodoControllerTest {
 
 第二个测试用例源代码如下:
 
-{% highlight java %}
+{% highlight java linenos %}
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;
 import org.junit.Test;
@@ -340,7 +340,7 @@ public class NoteControllerTest {
 
 源代码如下：
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.springframework.http.MediaType;
 
 public final class WebTestConstants {
@@ -356,7 +356,7 @@ public final class WebTestConstants {
 
 这些工作完成后，我们就可以把原先测试用例中的 APPLICATION_JSON_UTF8 常量移除了。现在的源代码是这样的：
 
-{% highlight java %}
+{% highlight java linenos %}
 import com.fasterxml.jackson.databind.ObjectMapper;
 import net.petrikainulainen.spring.jooq.config.WebUnitTestContext;
 import net.petrikainulainen.spring.jooq.todo.dto.TodoDTO;

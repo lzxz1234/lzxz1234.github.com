@@ -32,7 +32,7 @@ tags : [DSL, JUnit, Testing, CleanCode]
 
 AbstractControllerTest 类的源代码看起来是这样的：
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -64,7 +64,7 @@ public abstract class AbstractControllerTest {
 
 **然后**, 我们还需要实现一个负责创建需要的冒烟对象和控制器对象的实际测试类。`TodoControllerTest` 类的源代码看起来是这样的：
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.mockito.Mockito;
 import org.springframework.test.web.servlet.MockMvc;
 
@@ -102,7 +102,7 @@ public class TodoControllerTest extends AbstractControllerTest {
 
 如果我们按这些规则重写测试类后的代码看起来是这样的：
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;

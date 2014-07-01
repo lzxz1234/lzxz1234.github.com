@@ -89,7 +89,7 @@ tags : [DSL, JUnit, Testing, CleanCode]
 
 这份源代码是这样的:
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -172,7 +172,7 @@ public class RepositoryUserServiceTest {
 
 改完后源代码看起来就这样了：
 
-{% highlight java %}
+{% highlight java linenos %}
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
