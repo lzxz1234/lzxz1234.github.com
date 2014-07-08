@@ -2,7 +2,7 @@
 layout: post
 category : activemq
 tagline: "Supporting tagline"
-tags : [activemq, network, brokers]
+tags : [ActiveMQ, Java]
 ---
 
 为了提供可扩展的处理大数据量的能力你通常希望将多个 Brokder 连接成一个网络，在这个网络上你可以想连多少客户端就连多少，同时基于你的客户端数量和网络拓扑结构运行任意多个 Broker。

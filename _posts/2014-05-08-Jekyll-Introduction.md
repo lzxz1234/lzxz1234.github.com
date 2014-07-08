@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll-指南
 category : jekyll
-tags : [intro, beginner, jekyll, tutorial]
+tags : [Jekyll]
 ---
 {% include JB/setup %}
 

@@ -2,7 +2,7 @@
 layout: post
 title: XCMS简介
 category : xcms
-tags : [xcms]
+tags : [XCMS]
 ---
 {% include JB/setup %}
 基于Nutz和Beetl的通用[CMS](https://github.com/lzxz1234/XCMS "XCMS")基本完工。
