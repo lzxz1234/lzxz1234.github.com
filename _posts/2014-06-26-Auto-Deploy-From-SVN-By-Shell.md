@@ -12,7 +12,7 @@ tags : [Shell, Autodeploy]
 ### 基本代码 ###
 {% highlight bash linenos %}
 #!/bin/bash
-
+ 
 shelldir=$(cd $(dirname $BASH_SOURCE); pwd)
 prjhome="$shelldir/web"
 tomcathome="/var/apache-tomcat-7.0.54-8080"
@@ -33,7 +33,12 @@ do
         classpath=$classpath:$f
     done
 done
- 
+srcpath=""
+for eachsrcdir in ${srcdir[@]}
+do 
+    srcpath="$srcpath $eachsrcdir"
+done
+
 echo "==========================================================="
 echo ">>>>自动部署开始"
 echo ">>>>读取执行目录 ShellDir: $shelldir"
@@ -60,21 +65,23 @@ echo "-----------------------------------------------------------"
 
 if [[ $curversion -gt $preversion ]]
 then
-    $tomcathome/bin/shutdown.sh
-    echo "-----------------------------------------------------------"
     echo ">>>>更新到新内容，开始编译"
 
-    find $srcdir -name *.java |grep -v ".svn" > $tmpfile
-    javac -g -classpath $classpath -d $dstdir -sourcepath $srcdir -encoding utf8 @$tmpfile
+    find $srcpath -name *.java |grep -v ".svn" > $tmpfile
+    javac -g -classpath $classpath -d $dstdir -encoding utf8 @$tmpfile
     echo ">>>>编译JAVA类完成"
  
-        find $srcdir |grep -v ".java" |grep -v ".svn" > $tmpfile
+    find $srcpath |grep -v ".java" |grep -v ".svn" > $tmpfile
     while read line 
     do 
         if [ -f $line ]
         then
-            dest=${line/$srcdir/$dstdir}
+            for eachsrcdir in ${srcdir[@]}
+            do
+                dest=${line/$eachsrcdir/$dstdir}
+            done
             cp -f $line $dest
+            echo ">>>>执行: cp -f $line $dest"
         fi
     done<$tmpfile
 
@@ -82,12 +89,9 @@ then
     
     rm -f $tmpfile
     echo "preversion=$curversion" > $svninfofile
-    echo "-----------------------------------------------------------"
-    $tomcathome/bin/startup.sh
 else
     echo ">>>>未发现新文件，部署中止"
 fi
-
 echo "==========================================================="
 {% endhighlight %}
 
