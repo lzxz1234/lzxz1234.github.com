@@ -24,7 +24,7 @@ tags : [JUnit, Java, Testing, SpringMVC]
 
 - Jackson 2.2.1 (core 和 databind 模块)。我们使用 Jackson 把对象转化为字符串。
 - Hamcrest 1.3。使用它为返回内容写断言。
-- JUnit 4.11 (不包括 hamcrest-core 依赖).
+- JUnit 4.11 (不需要包括 hamcrest-core 依赖).
 - Mockito 1.9.5
 - Spring Test 3.2.3.RELEASE
 
