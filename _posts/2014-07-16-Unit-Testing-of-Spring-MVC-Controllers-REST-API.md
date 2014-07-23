@@ -698,12 +698,12 @@ public class TestUtil {
 7. 使用 JsonPath 表达式 $.id 获取返回的 Todo 对象的 id 属性，校验其值为 1。
 8. 使用 JsonPath 表达式 $.description 获取返回的 Todo 对象的 description 属性，校验其值为 “description”。
 9. 使用 JsonPath 表达式 $.title 获取返回的 Todo 对象的 title 属性，校验其值为 “title”。
-10. 创建 ArgumentCaptor 对象为 TodoDTO 作镜像。
-11. 校验 TodoService 接口的 `add()` 方法仅被调用过一次而且参数与前面 TodoDTO 镜像相同。
+10. 创建 ArgumentCaptor 对象为 TodoDTO 作快照。
+11. 校验 TodoService 接口的 `add()` 方法仅被调用过一次而且参数与前面 TodoDTO 快照相同。
 12. 确认冒烟对象的其它方法在测试过程没被调用过。
-13. 验证 TodoDTO 镜像对象的 id 属性是 null。
-14. 验证 TodoDTO 镜像对象的 description 属性值是 “description”。
-15. 验证 TodoDTO 镜像对象的 title 属性值是 “title”。
+13. 验证 TodoDTO 快照对象的 id 属性是 null。
+14. 验证 TodoDTO 快照对象的 description 属性值是 “description”。
+15. 验证 TodoDTO 快照对象的 title 属性值是 “title”。
 
 该单元测试基本代码如下：
 
