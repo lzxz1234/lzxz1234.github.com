@@ -45,10 +45,9 @@ py", line 134, in inner_run
     hostname, aliases, ipaddrs = gethostbyaddr(name)
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe5 in position 0: invalid
 continuation byte
+{% endhighlight %}
 
 居然是计算机名中含有中文导致的，整一大杯具
-
-{% endhighlight %}
 
 
 转载注明出处：[{{page.title}}]({{permalink}})
