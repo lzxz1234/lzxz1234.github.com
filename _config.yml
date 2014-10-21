@@ -70,6 +70,7 @@ JB :
   #
   ASSET_PATH : false
   POST_IMG_PATH : /assets/post-img
+  POST_RSC_PATH : /assets/resource
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
