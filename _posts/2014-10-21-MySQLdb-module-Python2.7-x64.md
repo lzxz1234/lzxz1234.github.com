@@ -2,7 +2,7 @@
 layout: post
 title: Python2.7 64位版 MySQLdb 模块下载
 category : python
-tags : [mysqldb, python, x64]
+tags : [MysqlDB, Python, x64]
 ---
 {% include JB/setup %}
 

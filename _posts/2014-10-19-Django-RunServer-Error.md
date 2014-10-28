@@ -2,7 +2,7 @@
 layout: post
 title: Django 启动错误
 category : python
-tags : [python, Django]
+tags : [Python, Django]
 ---
 {% include JB/setup %}
 
