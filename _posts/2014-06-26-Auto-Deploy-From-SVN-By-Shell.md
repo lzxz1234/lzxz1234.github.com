@@ -2,7 +2,7 @@
 layout: post
 title: Shell 实现从 SVN 自动更新部署项目
 category : Shell
-tags : [Shell, Autodeploy]
+tags : [Shell, Automation]
 ---
 {% include JB/setup %}
 
