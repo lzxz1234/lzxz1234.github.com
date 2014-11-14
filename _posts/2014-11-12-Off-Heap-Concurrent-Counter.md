@@ -31,7 +31,7 @@ tags : [Java, Concurrent]
 
 现在就让我们看下怎么实现。
 
-## 解决方案 ##
+## 解决方案 -- 内存映射文件 ##
 
 ### 如何获取内存地址 ###
 因为 `MappedByteBuffer` 使用了 `DirectByteBuffer`，所以通过获取内存中的虚地址然后使用 `unsafe` 实现 `CAS` 操作是可行的。代码如下:
