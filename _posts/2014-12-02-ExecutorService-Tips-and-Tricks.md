@@ -212,7 +212,7 @@ java.lang.Exception: Client stack trace
 
 ## 8、尽量使用 CompletableFuture ##
 
-在 Java8 中引入了一个新类 [`CompletableFuture`](http://www.javacodegeeks.com/2013/05/java-8-definitive-guide-to-completablefuture.html  "x")。这个类应该多用。调用方式如下：
+在 Java8 中引入了一个新类 [`CompletableFuture`](http://www.javacodegeeks.com/2013/05/java-8-definitive-guide-to-completablefuture.html  "CompletableFuture")。这个类应该多用。调用方式如下：
 
 {% highlight java linenos %}
 final CompletableFuture<BigDecimal> future = 
