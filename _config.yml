@@ -13,7 +13,6 @@ title : IPlus
 tagline: Site Tagline
 paginate: 15
 markdown: kramdown
-permalink: pretty
 
 author :
   name : lzxz1234
