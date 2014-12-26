@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: rouge/pygments
+highlighter: pygments
 encoding: utf-8
 
 # Themes are encouraged to use these universal variables 
@@ -13,6 +13,8 @@ title : IPlus
 tagline: Site Tagline
 paginate: 15
 markdown: kramdown
+permalink: pretty
+
 author :
   name : lzxz1234
   email : lzxz1234@gmail.com
