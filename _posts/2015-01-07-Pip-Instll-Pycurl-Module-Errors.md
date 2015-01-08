@@ -8,7 +8,7 @@ tags : [Python, pip]
 
 ## 错误一 ##
 
-{% highlight java %}
+{% highlight sh %}
 In file included from src/module.c:1:
 src/pycurl.h:152:5: warning: #warning "libcurl was compiled with SSL support, but configure could not determine which " "library was used; thus no SSL crypto locking callbacks will be set, which may " "cause random crashes on SSL requests"
 src/module.c: In function ‘initpycurl’:
@@ -38,7 +38,7 @@ error: command 'gcc' failed with exit status 1
 
 ## 错误二 ##
 
-{% highlight java %}
+{% highlight sh %}
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ImportError: pycurl: libcurl link-time version (7.19.7) is older than compile-time version (7.37.0)
@@ -50,9 +50,11 @@ ImportError: pycurl: libcurl link-time version (7.19.7) is older than compile-ti
 
 ## For Windows ##
 
-[下载](http://www.lfd.uci.edu/~gohlke/pythonlibs/ "pythonlibs") 对应包安装。
+此处 [下载](http://www.lfd.uci.edu/~gohlke/pythonlibs/ "pythonlibs") 对应包安装。
 
+{% highlight sh %}
 D:\Python27\Lib\site-packages>pip wheel pycurl-7.19.5.1-cp27-none-win_amd64.whl
 D:\Python27\Lib\site-packages>pip install --no-index --find-links=wheelhouse pycurl-7.19.5.1-cp27-none-win_amd64.whl
+{% endhighlight %}
 
 转载注明出处：[{{page.title}}]({{permalink}})
