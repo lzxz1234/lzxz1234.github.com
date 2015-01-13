@@ -318,7 +318,7 @@ YAML 头的可用配置参数在此处查看：
 1. 自定义目录的方式.
 2. Liquid 语法和传递给 Liquid 模板的变量.
 
-通过 Liquid 你能在模板中获取的全部对象在 Jekyll-Bootstrap 中的 [**API 章节**](/jekyll/2015/01/09/Jekyll-Variables/) 已给出说明。你也可以从这阅读原始文档：<http://jekyllcn.com/docs/variables/>
+通过 Liquid 你能在模板中获取的全部对象在 [**API 章节**](/jekyll/2015/01/09/Jekyll-Variables/) 已给出说明。你也可以从这阅读原始文档：<http://jekyllcn.com/docs/variables/>
 
 ## 结论
 
