@@ -11,7 +11,7 @@ encoding: utf-8
 #
 title : IPlus
 tagline: Site Tagline
-paginate: 15
+paginate: 20
 markdown: kramdown
 
 author :
