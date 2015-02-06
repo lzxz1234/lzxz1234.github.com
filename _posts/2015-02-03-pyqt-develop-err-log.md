@@ -134,4 +134,4 @@ sys.exit(app.exec_())
 {% endhighlight %}
 
 ### 完整代码
-参见 [GitHub]("http://github.com/lzxz1234/Txt2Html" "Txt2Html") 
+参见 [GitHub](http://github.com/lzxz1234/Txt2Html "Txt2Html") 
