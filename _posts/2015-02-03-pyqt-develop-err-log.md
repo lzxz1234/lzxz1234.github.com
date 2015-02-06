@@ -111,13 +111,27 @@ def set_file(self, file_path):
 ### 启动界面
 
 {% highlight python %}
+app = QApplication(sys.argv)
+
 splash_pix = QPixmap("resources/splash.png")
 splash = QSplashScreen(splash_pix, QtCore.Qt.WindowStaysOnTopHint)
+progressBar = QProgressBar(splash)
+progressBar.setAlignment(QtCore.Qt.AlignCenter)
+progressBar.setFixedWidth(splash_pix.width())
 splash.setMask(splash_pix.mask())
 splash.show()
+
+t = QtCore.QElapsedTimer()
+t.start()
+progressBar.setMaximum(1000)
+while (t.elapsed() < 1000):
+    progressBar.setValue(t.elapsed())
 
 window = MainWindow()
 splash.finish(window)
 window.show()
 sys.exit(app.exec_())
 {% endhighlight %}
+
+### 完整代码
+参见 [GitHub]("http://github.com/lzxz1234/Txt2Html" "Txt2Html") 
