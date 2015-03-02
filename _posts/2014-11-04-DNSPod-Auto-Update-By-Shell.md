@@ -2,7 +2,7 @@
 layout: post
 title: Shell 实现基于 DNSPod 用户 API 的动态域名客户端
 category : shell
-tags : [DNSPod, Cubieboard, Automation]
+tags : [DNSPod, Cubieboard, Automation, Shell]
 ---
 {% include JB/setup %}
 
