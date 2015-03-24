@@ -32,19 +32,12 @@ tags : [Shell, Deploy]
 [root@localhost ~]# vi /etc/httpd/conf.d/mod_jk2.conf
 
 LoadModule jk_module modules/mod_jk.so
-
 JkWorkersFile conf.d/jkworkers.properties
-
 JkLogFile logs/mod_jk.log
-
 JkLogLevel info
-
 JkLogStampFormat "[%a %b %d %H:%M:%S %Y] "
-
 JkOptions +ForwardKeySize +ForwardURICompat -ForwardDirectories
-
 JkRequestLogFormat "%w %V %T"
-
 JkMount /* loadBalancer
 {% endhighlight %}
 
@@ -78,7 +71,7 @@ worker.loadBalancer.sticky_session=1
 
 此处的 jvmRoute 名字需要和前面 jkworkers.properties 中配置的名字保持一致。
 
-#### 最后重启 tomcat 和 httpd 
+#### 最后重启 tomcat 和 httpd:
 
 如果出现以下错误：
 {% highlight sh %}
