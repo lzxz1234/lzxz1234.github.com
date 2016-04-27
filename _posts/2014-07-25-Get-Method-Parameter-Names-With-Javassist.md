@@ -74,7 +74,7 @@ for (int i = 0; i < attr.tableLength(); i++) {
 
 上述两段代码中的 pos 变量主要用于处理实例方法前面的 this 变量，静态方法 pos 将为 0。
 
----
+=======
 
 实际上述代码还会导致另一个问题，由于 long 和 double 等类型单个变量占用两个 slot，于是 attr.index(i) 是跳跃的，于是一个再次优化的版本如下：
 
