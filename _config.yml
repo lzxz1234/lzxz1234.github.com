@@ -36,6 +36,7 @@ safe : true
 #
 JB :
   version : 0.3.0
+  THEME : the-program
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
