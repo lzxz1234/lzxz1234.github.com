@@ -782,6 +782,6 @@ public class TodoControllerTest {
 - 如何把 DTO 对象转换成 JSON 字节数组并把转换后的内容当作请求体发送。
 - 如何使用 JsonPath 表达式为 JSON 串写断言。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-rest-api/ "Unit Testing of Spring MVC Controllers: REST API")

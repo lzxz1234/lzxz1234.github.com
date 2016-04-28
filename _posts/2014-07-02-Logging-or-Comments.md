@@ -41,6 +41,6 @@ tags : [Java]
 
 最后：该用日志的时候用日志，该用注释的时候用注释。如果你想挖洞，就用铲子。要钉钉子，就用锤子。在任何时候使用合适的工具。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://javax0.wordpress.com/2014/06/25/logging-or-commenting/ "Logging or Commenting ?")

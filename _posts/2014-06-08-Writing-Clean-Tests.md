@@ -414,6 +414,6 @@ public class TodoControllerTest {
 - 要给常量类和常量起个好名字。如果我们不这么干，我们不能充分发挥它的好处。
 - 在我们想明白添加一个常量能带来哪些好处前不要随意添加它们。现实中的代码往往比博客中的例子复杂的多。如果我们不经思考的写代码，很有可能就会错过最佳的解决方案。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.petrikainulainen.net/programming/testing/writing-clean-code-beware-of-magic/ "Writing Clean Tests – Beware of Magic")

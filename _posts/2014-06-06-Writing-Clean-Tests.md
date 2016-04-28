@@ -160,6 +160,6 @@ public class TodoControllerTest {
 1. 继承不是重用代码和配置的正确方法。
 2. 如果某个测试用例失败了，我们必须要尽快找到并且解决问题，明确的配置可以帮我们更快达成目标。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.petrikainulainen.net/programming/testing/writing-clean-tests-it-starts-from-the-configuration/ "Writing Clean Tests – It Starts from the Configuration")

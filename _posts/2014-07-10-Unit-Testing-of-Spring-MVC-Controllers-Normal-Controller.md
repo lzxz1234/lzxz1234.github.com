@@ -732,6 +732,6 @@ public class TodoControllerTest {
 
 本系列指南接下来的部分将会告诉我们如何为 REST API 写单元测试。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-normal-controllers/ "Unit Testing of Spring MVC Controllers: “Normal” Controllers")

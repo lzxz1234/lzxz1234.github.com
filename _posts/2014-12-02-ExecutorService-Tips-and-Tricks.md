@@ -238,6 +238,6 @@ ExecutorService executorService = new ThreadPoolExecutor(2, 2, 0L, TimeUnit.MILL
 
 全文完，希望它对你有用。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.nurkiewicz.com/2014/11/executorservice-10-tips-and-tricks.html "http://www.nurkiewicz.com/2014/11/executorservice-10-tips-and-tricks.html")

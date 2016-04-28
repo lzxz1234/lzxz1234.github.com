@@ -394,6 +394,6 @@ jobOperator.start("files-job", new Properties());
 
 [World of Warcraft Auctions](https://github.com/radcortez/wow-auctions)
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.radcortez.com/java-ee-7-batch-processing-and-world-of-warcraft-part-1/ "JAVA EE 7 BATCH PROCESSING AND WORLD OF WARCRAFT – PART 1")

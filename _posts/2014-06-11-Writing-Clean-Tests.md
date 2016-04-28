@@ -253,6 +253,6 @@ public class RepositoryUserServiceTest {
 - 我们可能通过分辨导致测试失败的不同场景来分辨不同的流程逻辑
 - 编写只负责一个流程逻辑的测试用例可以帮助我们更容易把测试用例转换成可执行描述。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.petrikainulainen.net/programming/testing/writing-clean-tests-replace-assertions-with-a-domain-specific-language/ "Writing Clean Tests – Replace Assertions with a Domain-Specific Language")

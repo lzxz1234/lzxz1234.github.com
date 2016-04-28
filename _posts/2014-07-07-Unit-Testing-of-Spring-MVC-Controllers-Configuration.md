@@ -457,6 +457,6 @@ public class WebApplicationContextTodoControllerTest {
 - 我们知道了独立配置和基于 WebApplicationContext 配置的区别。
 
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-configuration/ "Unit Testing of Spring MVC Controllers: Configuration")

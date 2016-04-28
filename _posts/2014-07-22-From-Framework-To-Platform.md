@@ -62,6 +62,6 @@ tags : [Java]
 
 以上就是我们将软件迁移到云平台的过程中的一些经验。希望你也能分享下你的经验和观点。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://sgdev-blog.blogspot.tw/2014/07/from-framework-to-platform.html "From framework to platform")

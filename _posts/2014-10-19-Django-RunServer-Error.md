@@ -49,4 +49,4 @@ tags : [Python, Django]
 居然是计算机名中含有中文导致的，整一大杯具
 
 
-转载注明出处：[{{page.title}}]({{permalink}})
+

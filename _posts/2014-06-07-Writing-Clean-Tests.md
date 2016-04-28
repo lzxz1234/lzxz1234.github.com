@@ -263,6 +263,6 @@ public class RepositoryUserServiceTest {
 
 同时，我也非常希望听到你们所使用的命名约定。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.petrikainulainen.net/programming/testing/writing-clean-tests-naming-matters/ "Writing Clean Tests – Naming Matters")

@@ -1,9 +1,5 @@
-# This is the default format. 
-# For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
-
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 encoding: utf-8
 
 # Themes are encouraged to use these universal variables 
@@ -31,7 +27,6 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://lzxz1234.github.io
-safe : true
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

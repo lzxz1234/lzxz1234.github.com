@@ -26,4 +26,4 @@ tags : [MysqlDB, Python, x64]
 		ImportError: No module named MySQLdb
 		>>>
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
