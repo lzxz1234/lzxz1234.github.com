@@ -328,4 +328,3 @@ Jekyll-bootstrap 的目标就是通过提供一些方法和策略让你能更直
 
 **感谢** 你能读完全文.
 
-转载注明出处：[{{page.title}}]({{permalink}})

@@ -317,6 +317,6 @@ public class RepositoryUserServiceTest {
 - 为断言创建一种面向领域的语言会使我们的测试类更健壮因为我们把所有的断言逻辑都移到自定义断言类里去了.
 - 如果我们用面向领域语言实现断言，我们就可以把测试类转换成一个更容易阅读的可执行的描述，这样也更容易被领域专家理解。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://www.petrikainulainen.net/programming/testing/writing-clean-tests-replace-assertions-with-a-domain-specific-language/ "Writing Clean Tests – Replace Assertions with a Domain-Specific Language")

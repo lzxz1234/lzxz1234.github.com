@@ -82,6 +82,6 @@ private static long convert(long a) {
 - 内存映射文件是很强大的，用它能实现很多强大的工具，像不依赖堆的集合，IPC，不依赖堆内存的线程同步等。
 - 内存映射文件开启了无 GC 编程模式的大门。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://ashkrit.blogspot.com/2014/03/off-heap-concurrent-counter.html "http://ashkrit.blogspot.com/2014/03/off-heap-concurrent-counter.html")

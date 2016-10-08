@@ -1,9 +1,5 @@
-# This is the default format. 
-# For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
-
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 encoding: utf-8
 
 # Themes are encouraged to use these universal variables 
@@ -11,6 +7,7 @@ encoding: utf-8
 #
 title : IPlus
 tagline: Site Tagline
+gems: [jekyll-paginate]
 paginate: 20
 markdown: kramdown
 
@@ -30,12 +27,12 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://lzxz1234.github.io
-safe : true
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
   version : 0.3.0
+  THEME : the-program
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}

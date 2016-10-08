@@ -89,6 +89,6 @@ protected WebApplicationContext initWebApplicationContext() {
 - 把数据源、配置文件源之类的特殊配置拆分到不同的配置文件以便于重用。
 - 不要在普遍性的包上做组件扫描。例如，对比扫描 `org.springframework`，扫描几个子包 `org.springframework.core`，`org.springframework.context`，`org.springframework.ui`无疑更容易管理。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://sgdev-blog.blogspot.com/2014/07/spring-mvc-common-mistakes.html "Common mistakes when using Spring MVC")

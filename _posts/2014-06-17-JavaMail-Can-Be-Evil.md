@@ -35,6 +35,6 @@ tags : [JavaMail]
 	System.setProperty("file.encoding", Charsets.UTF_8.name());
 	System.setProperty("mail.mime.charset", Charsets.UTF_8.name());
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
 
 [原文链接](http://andreas.haufler.info/2014/06/javamail-can-be-evil-and-force-you-to.html "JavaMail can be evil (and force you to restart your app server) ")

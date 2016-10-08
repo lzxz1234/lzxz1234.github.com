@@ -34,4 +34,4 @@ var disqus_url = '{{ site.url }}{{ page.url }}';
 
 这样当你的模板中不存在 **disqus_identifier** 变量时，默认仍取 URL 作为主键。不会对原有的资源产生任何影响。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+

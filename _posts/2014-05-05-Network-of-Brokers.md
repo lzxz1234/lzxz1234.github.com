@@ -273,4 +273,3 @@ Broker 网络非常依咨询消息，从原理上讲，一个远端的消费者�
 	maven -o consumer -Durl=tcp://localhost:62002
 	maven -o producer -Durl=tcp://localhost:62001
 
-转载注明出处：[{{page.title}}]({{permalink}})

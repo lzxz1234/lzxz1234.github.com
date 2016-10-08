@@ -94,4 +94,3 @@ if __name__ == '__main__':
 
 	*/5 * * * * /usr/bin/python /home/linaro/report_ip_via_email.py
 
-转载注明出处：[{{page.title}}]({{permalink}})

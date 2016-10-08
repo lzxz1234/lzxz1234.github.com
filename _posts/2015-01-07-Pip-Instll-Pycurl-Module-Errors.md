@@ -57,4 +57,4 @@ D:\Python27\Lib\site-packages>pip wheel pycurl-7.19.5.1-cp27-none-win_amd64.whl
 D:\Python27\Lib\site-packages>pip install --no-index --find-links=wheelhouse pycurl-7.19.5.1-cp27-none-win_amd64.whl
 {% endhighlight %}
 
-转载注明出处：[{{page.title}}]({{permalink}})
+

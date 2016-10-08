@@ -65,4 +65,4 @@ tags : [Java, WeiXin]
 - [[测试地址]](http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login "测试地址") 接口体验账号申请地址
 - [[本机公网发布]](https://ngrok.com "ngrok") 可以将本机服务发布到公网80端口便于测试
 
-转载注明出处：[{{page.title}}]({{permalink}})
+

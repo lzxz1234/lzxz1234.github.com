@@ -180,4 +180,4 @@ tags : [Jekyll]
 >分页器变量的可用性
 这些变量仅在首页文件中可用，不过他们也会存在于子目录中，就像 /blog/index.html。
 
-转载注明出处：[{{page.title}}]({{permalink}})
+
