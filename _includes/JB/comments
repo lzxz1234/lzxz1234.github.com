@@ -3,6 +3,9 @@
 {% case site.JB.comments.provider %}
 {% when "disqus" %}
   {% include JB/comments-providers/disqus %}
+{% when "uyan" %}
+  {% include JB/comments-providers/uyan %}
+
 {% when "livefyre" %}
   {% include JB/comments-providers/livefyre %}
 {% when "intensedebate" %}
