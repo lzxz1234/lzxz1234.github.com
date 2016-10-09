@@ -85,8 +85,6 @@ JB :
   #
   comments :
     provider : uyan
-    uyan :
-      uid : 2115994
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
