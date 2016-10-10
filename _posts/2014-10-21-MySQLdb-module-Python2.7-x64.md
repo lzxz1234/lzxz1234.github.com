@@ -9,7 +9,8 @@ tags : [MysqlDB, Python, x64]
 `pip install mysqldb` 无限失败，不是少这就是少那的，无奈找了个现成版。
 
 1. 下载链接：
-[MySQL-python-1.2.3.win-amd64-py2.7]({{ site.JB.POST_RSC_PATH }}/MySQL-python-1.2.3.win-amd64-py2.7.exe "MySQL-python-1.2.3.win-amd64-py2.7")
+[MySQL-python-1.2.3.win-amd64-py2.7](http://www.lfd.uci.edu/~gohlke/pythonlibs/ "MySQL-python-1.2.3.win-amd64-py2.7")
+
 2. 安装运行
 3. 检查是否安装成功:
 
